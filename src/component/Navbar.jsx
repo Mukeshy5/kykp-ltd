@@ -73,19 +73,26 @@ const Navbar = () => {
 
         {/* Mobile Nav Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3">
-            {navLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`block font-medium py-2 hover:text-accent ${
-                  location.pathname === link.path ? 'text-accent' : 'text-slate-700'
-                }`}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {link.name}
-              </Link>
-            ))}
+          <div
+            id="mobile-menu"
+            className={`fixed inset-x-0 top-20 z-40 bg-white shadow-lg md:hidden transition-transform duration-300 ease-out ${
+              isMobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
+            } h-[calc(100vh-80px)] overflow-y-auto`}
+          >
+            <div className="px-4 pt-2 pb-6 space-y-3">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  className={`block font-medium py-2 hover:text-accent ${
+                    location.pathname === link.path ? 'text-accent' : 'text-slate-700'
+                  }`}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
           </div>
         )}
       </header>

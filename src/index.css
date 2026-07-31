@@ -19,10 +19,7 @@ img {
   height: auto;
 }
 
-/* Smooth transitions for mobile menu */
-#mobile-menu {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
+
 
 /* Mobile-first text adjustments */
 @media (max-width: 640px) {
