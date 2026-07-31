@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
 const Layout = ({ children }) => {
+  const location = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location])
+
   return (
-    <div className="font-sans text-slate-800 bg-white antialiased">
+    <div className="font-sans text-darktext bg-lightbg antialiased">
       <Navbar />
       <main>
         {children}
