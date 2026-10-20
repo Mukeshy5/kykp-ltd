@@ -45,7 +45,7 @@ const ContectUs = () => {
                   <i className="fa-solid fa-phone"></i>
                 </div>
                 <h4 className="font-bold text-navy text-lg mb-2">Call Us</h4>
-                <p className="text-mutedtext">7723 693256</p>
+                <p className="text-mutedtext">020 4650 0394</p>
                 <p className="text-xs text-mutedtext mt-1">Monday - Friday, 8:00 AM - 6:00 PM</p>
               </div>
 
@@ -91,7 +91,7 @@ const ContectUs = () => {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Prefer to Speak With Us Directly?</h2>
           <p className="text-slate-300 text-lg mb-8">
-            Call our team at 7723 693256 or email us at sales@kykpltd.com. We look forward to hearing from you.
+            Call our team at 020 4650 0394 or email us at sales@kykpltd.com. We look forward to hearing from you.
           </p>
           <Link to="/enquire" className="inline-block bg-accent hover:bg-steel text-white px-8 py-3.5 rounded-lg font-bold shadow-lg transition">
             Submit a Detailed Enquiry

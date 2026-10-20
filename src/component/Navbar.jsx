@@ -23,7 +23,7 @@ const Navbar = () => {
           <span><i className="fa-solid fa-envelope text-gold mr-2"></i>sales@kykpltd.com</span>
         </div>
         <div className="flex items-center space-x-4">
-          <span><i className="fa-solid fa-phone text-gold mr-2"></i>7723 693256</span>
+          <span><i className="fa-solid fa-phone text-gold mr-2"></i>020 4650 0394</span>
           <span className="bg-blue-800/60 text-blue-200 text-xs px-2 py-1 rounded border border-blue-600">UK Registered Business</span>
         </div>
       </div>

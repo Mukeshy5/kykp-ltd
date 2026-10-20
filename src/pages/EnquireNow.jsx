@@ -54,7 +54,7 @@ const EnquireNow = () => {
                     <div className="w-8 h-8 bg-accent text-white rounded-full flex items-center justify-center shrink-0 text-sm font-bold">1</div>
                     <div>
                       <p className="font-semibold text-navy">Call Us</p>
-                      <p className="text-mutedtext text-sm">Speak directly with our team at 7723 693256</p>
+                      <p className="text-mutedtext text-sm">Speak directly with our team at 020 4650 0394</p>
                     </div>
                   </li>
                   <li className="flex items-start space-x-3">
@@ -81,8 +81,8 @@ const EnquireNow = () => {
                   <Link to="/contact" className="block w-full bg-accent hover:bg-steel text-white text-center px-6 py-3 rounded-lg font-bold shadow-lg transition">
                     Contact Us
                   </Link>
-                  <a href="tel:7723693256" className="block w-full border border-white hover:bg-white hover:text-navy text-white text-center px-6 py-3 rounded-lg font-bold transition">
-                    Call 7723 693256
+                  <a href="tel:02046500394" className="block w-full border border-white hover:bg-white hover:text-navy text-white text-center px-6 py-3 rounded-lg font-bold transition">
+                    Call 020 4650 0394
                   </a>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const EnquireNow = () => {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Prefer to Call or Email?</h2>
           <p className="text-slate-300 text-lg mb-4">
-            Phone: 7723 693256
+            Phone: 020 4650 0394
           </p>
           <p className="text-slate-300 text-lg mb-8">
             Email: sales@kykpltd.com
